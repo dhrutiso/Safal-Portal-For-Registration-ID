@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ધ સફળ School of Science | Registration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+:root{--navy:#142b55;--blue:#2563eb;--gold:#e7b84b;--ink:#172033;--muted:#667085;--line:#e5eaf2;--bg:#f3f6fc}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,"Noto Sans Gujarati",sans-serif}
+.page{max-width:1040px;margin:38px auto;padding:0 20px 56px}.hero{background:linear-gradient(130deg,#142b55,#2454a4);color:white;padding:30px 34px;border-radius:22px;box-shadow:0 14px 35px #142b5522;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:220px;height:220px;border:1px solid #ffffff25;border-radius:50%;right:-55px;top:-100px;box-shadow:0 0 0 25px #ffffff0b,0 0 0 50px #ffffff08}
+.brand-small{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#d7e5ff;font-weight:700}.hero h1{font-family:"Noto Sans Gujarati",Inter,sans-serif;font-size:clamp(25px,4vw,38px);margin:12px 0 7px}.hero p{margin:0;color:#dce7fa;font-size:14px}
+.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;margin-top:22px;box-shadow:0 7px 22px #20345c08}.section-title{font-size:18px;font-weight:800;margin:0 0 22px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 22px}.field{min-width:0}.field.full{grid-column:1/-1}label,.legend{display:block;font-size:14px;font-weight:700;margin-bottom:9px}.required{color:#dc2626}.hint{font-size:12px;color:var(--muted);margin-top:7px}.control{width:100%;height:48px;border:1px solid #d6deea;border-radius:10px;padding:0 14px;font:500 14px Inter,"Noto Sans Gujarati",sans-serif;color:var(--ink);background:white;outline:none;transition:.2s}.control:focus{border-color:var(--blue);box-shadow:0 0 0 3px #2563eb18}.options{display:flex;flex-wrap:wrap;gap:12px}.choice{display:flex;align-items:center;gap:9px;padding:11px 13px;border:1px solid var(--line);border-radius:10px;font-size:14px;cursor:pointer;background:#fff}.choice input{accent-color:var(--blue);width:17px;height:17px;margin:0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{border:0;border-radius:11px;padding:13px 20px;font-weight:800;font-size:14px;cursor:pointer}.btn-primary{background:var(--blue);color:white;box-shadow:0 7px 15px #2563eb30}.btn-secondary{background:#eef2f8;color:#344054}.error{display:none;color:#dc2626;font-size:12px;margin-top:6px}.invalid .control{border-color:#dc2626}.invalid .error{display:block}
+.result{display:none}.result.show{display:block}.result-head{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:16px}.result-head h2{font-size:20px;margin:0}.card-wrap{background:#eef3fb;border-radius:16px;padding:20px;display:flex;justify-content:center;overflow:auto}
+.registration-card{width:760px;max-width:100%;min-height:460px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 12px 30px #142b5520;border:1px solid #dbe3ef;position:relative;color:#172033}
+.card-top{background:linear-gradient(115deg,#142b55,#2454a4);color:#fff;padding:26px 32px 23px;position:relative;text-align:center}.card-top:after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;background:linear-gradient(90deg,#e7b84b,#f7df9a,#e7b84b)}
+.monogram{width:54px;height:54px;border-radius:50%;border:2px solid #f2d17b;color:#f8df9f;display:grid;place-items:center;font-size:18px;font-weight:800;margin:0 auto 10px}.school-name{font-family:"Noto Sans Gujarati",Inter,sans-serif;font-size:27px;font-weight:800;line-height:1.4}.school-sub{font-size:11px;letter-spacing:2.5px;color:#dbe8ff;margin-top:4px;font-weight:700}.card-label{display:inline-block;margin-top:15px;padding:7px 20px;border:1px solid #ffffff70;border-radius:30px;font-size:12px;letter-spacing:2px;font-weight:800}
+.card-body{padding:27px 32px 28px}.reg-strip{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 14px;background:#f1f5fb;border-left:4px solid var(--gold);border-radius:7px;margin-bottom:22px}.reg-strip span{font-size:12px;color:#667085;font-weight:700;letter-spacing:.7px}.reg-strip strong{font-size:17px;color:#17366d}
+.student-name{font-size:26px;font-weight:800;margin:0 0 20px;overflow-wrap:anywhere}.data-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px 25px}.data-item{border-bottom:1px solid #e7ebf2;padding-bottom:10px;min-width:0}.data-item small{display:block;color:#758198;font-size:10px;font-weight:800;letter-spacing:1px;margin-bottom:6px}.data-item strong{font-size:14px;overflow-wrap:anywhere}.competition-row{margin-top:20px;padding:13px 15px;background:#fffaf0;border:1px solid #f2e4bd;border-radius:9px}.competition-row small{display:block;color:#9a7426;font-size:10px;font-weight:800;letter-spacing:1px;margin-bottom:7px}.competition-row strong{font-family:"Noto Sans Gujarati",Inter,sans-serif;font-size:13px;line-height:1.7}.card-footer{display:flex;justify-content:space-between;gap:12px;align-items:center;border-top:1px dashed #d7deea;margin-top:22px;padding-top:14px;color:#7b8798;font-size:10px}.card-footer strong{color:#17366d;font-size:11px}
+@media(max-width:650px){.page{margin:18px auto;padding:0 12px 35px}.hero{padding:24px 20px}.panel{padding:21px 17px}.grid{grid-template-columns:1fr}.field.full{grid-column:auto}.card-wrap{padding:8px}.registration-card{min-width:580px;transform-origin:top left}.card-body{padding:22px}.school-name{font-size:23px}}
+@media print{body{background:#fff}.page>*:not(.result){display:none}.result{display:block!important}.result-head,.card-wrap{display:none}.registration-card{box-shadow:none}}
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="hero">
+    <div class="brand-small">Student Registration Portal</div>
+    <h1>સફળ - ધ સ્કૂલ ઓફ સાયન્સ</h1>
+    <p>વિદ્યાર્થી નોંધણી ફોર્મ — Student Registration Form</p>
+  </header>
+
+  <form id="registrationForm" class="panel" novalidate>
+    <h2 class="section-title">વિદ્યાર્થીની વિગતો / Student Details</h2>
+    <div class="grid">
+      <div class="field full" id="competitionField">
+        <span class="legend">સ્પર્ધાનું નામ <span class="required">*</span></span>
+        <div class="options">
+          <label class="choice"><input type="checkbox" name="competition" value="ઇલેક્ટ્રોનિક સ્ટડી / સાયન્સ માટેનો લકી શો"> ઇલેક્ટ્રોનિક સ્ટડી / સાયન્સ માટેનો લકી શો</label>
+          <label class="choice"><input type="checkbox" name="competition" value="જીતી લો 3.0 સ્પર્ધા"> જીતી લો 3.0 સ્પર્ધા</label>
+          <label class="choice"><input type="checkbox" name="competition" value="ચિત્ર સ્પર્ધા 2027"> ચિત્ર સ્પર્ધા 2027</label>
+        </div>
+        <div class="error">કૃપા કરીને ઓછામાં ઓછી એક સ્પર્ધા પસંદ કરો.</div>
+      </div>
+
+      <div class="field full" id="nameField">
+        <label for="studentName">વિદ્યાર્થીનું નામ (આધાર કાર્ડ મુજબ અંગ્રેજીમાં નામ લખવું) <span class="required">*</span></label>
+        <input class="control" id="studentName" name="studentName" type="text" placeholder="Enter student's full name" autocomplete="name" required>
+        <div class="error">કૃપા કરીને વિદ્યાર્થીનું નામ લખો.</div>
+      </div>
+
+      <div class="field">
+        <label for="registrationNumber">રજીસ્ટ્રેશન નંબર <span class="required">*</span></label>
+        <input class="control" id="registrationNumber" name="registrationNumber" type="text" placeholder="Enter registration number" required>
+        <div class="error">કૃપા કરીને રજીસ્ટ્રેશન નંબર લખો.</div>
+      </div>
+
+      <div class="field">
+        <label for="standard">ધોરણ <span class="required">*</span></label>
+        <select class="control" id="standard" name="standard" required>
+          <option value="">ધોરણ પસંદ કરો</option>
+          <option>નર્સરી</option><option>LKG</option><option>UKG</option>
+          <option>ધોરણ 1</option><option>ધોરણ 2</option><option>ધોરણ 3</option><option>ધોરણ 4</option><option>ધોરણ 5</option><option>ધોરણ 6</option><option>ધોરણ 7</option><option>ધોરણ 8</option><option>ધોરણ 9</option><option>ધોરણ 10</option><option>ધોરણ 11</option><option>ધોરણ 12</option>
+        </select>
+        <div class="error">કૃપા કરીને ધોરણ પસંદ કરો.</div>
+      </div>
+
+      <div class="field">
+        <label for="medium">માધ્યમ <span class="required">*</span></label>
+        <select class="control" id="medium" name="medium" required>
+          <option value="">માધ્યમ પસંદ કરો</option>
+          <option value="ગુજરાતી માધ્યમ">ગુજરાતી માધ્યમ</option>
+          <option value="English Medium">English Medium</option>
+        </select>
+        <div class="error">કૃપા કરીને માધ્યમ પસંદ કરો.</div>
+      </div>
+
+      <div class="field" id="mobileField">
+        <label for="mobile">મોબાઇલ નંબર (10 અંકો ફરજિયાત લખવો) <span class="required">*</span></label>
+        <input class="control" id="mobile" name="mobile" type="tel" inputmode="numeric" maxlength="10" placeholder="10-digit mobile number" required>
+        <div class="error">માન્ય 10 અંકનો મોબાઇલ નંબર લખો.</div>
+      </div>
+
+      <div class="field" id="whatsappField">
+        <label for="whatsapp">WhatsApp નંબર (10 અંકો ફરજિયાત લખવો) <span class="required">*</span></label>
+        <input class="control" id="whatsapp" name="whatsapp" type="tel" inputmode="numeric" maxlength="10" placeholder="10-digit WhatsApp number" required>
+        <div class="error">માન્ય 10 અંકનો WhatsApp નંબર લખો.</div>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" type="submit">Submit &amp; Create Registration Card</button>
+      <button class="btn btn-secondary" type="reset">Clear Form</button>
+    </div>
+  </form>
+
+  <section class="panel result" id="resultSection">
+    <div class="result-head">
+      <h2>Registration Card Preview</h2>
+      <button class="btn btn-primary" id="downloadBtn" type="button">Download PNG</button>
+    </div>
+    <div class="card-wrap">
+      <article class="registration-card" id="registrationCard">
+        <header class="card-top">
+          <div class="monogram">SS</div>
+          <div class="school-name">સફળ - ધ સ્કૂલ ઓફ સાયન્સ</div>
+          <div class="school-sub">વિદ્યાર્થી નોંધણી</div>
+          <div class="card-label">નોંધણી કાર્ડ</div>
+        </header>
+        <div class="card-body">
+          <div class="reg-strip"><span>નોંધણી નંબર</span><strong id="cardReg">—</strong></div>
+          <h2 class="student-name" id="cardName">Student Name</h2>
+          <div class="data-grid">
+            <div class="data-item"><small>ધોરણ</small><strong id="cardStandard">—</strong></div>
+            <div class="data-item"><small>માધ્યમ</small><strong id="cardMedium">—</strong></div>
+            <div class="data-item"><small>મોબાઇલ નંબર</small><strong id="cardMobile">—</strong></div>
+            <div class="data-item"><small>વોટ્સએપ નંબર</small><strong id="cardWhatsapp">—</strong></div>
+          </div>
+          <div class="competition-row"><small>પસંદ કરેલી સ્પર્ધા</small><strong id="cardCompetition">—</strong></div>
+          <footer class="card-footer"><span>સફળ - ધ સ્કૂલ ઓફ સાયન્સ</span><strong>અધિકૃત નોંધણી કાર્ડ</strong></footer>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<script>
+const form = document.getElementById('registrationForm');
+const result = document.getElementById('resultSection');
+const onlyDigits = value => value.replace(/\D/g, '').slice(0, 10);
+let submitAttempted = false;
+
+function validPhone(value) { return /^[6-9]\d{9}$/.test(value); }
+
+['mobile','whatsapp'].forEach(id => {
+  const input = document.getElementById(id);
+  const fieldId = id + 'Field';
+
+  input.addEventListener('input', () => {
+    input.value = onlyDigits(input.value);
+    // Once the user starts typing (or has tried to submit), validate immediately.
+    if (input.value.length > 0 || submitAttempted) {
+      setError(fieldId, !validPhone(input.value));
+    } else {
+      setError(fieldId, false);
+    }
+  });
+
+  input.addEventListener('blur', () => {
+    if (input.value.length > 0 || submitAttempted) {
+      setError(fieldId, !validPhone(input.value));
+    }
+  });
+});
+
+function setError(fieldId, invalid) {
+  document.getElementById(fieldId).classList.toggle('invalid', invalid);
+  return !invalid;
+}
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  submitAttempted = true;
+  const competitions = [...document.querySelectorAll('input[name="competition"]:checked')].map(el => el.value);
+  let valid = true;
+  valid = setError('competitionField', competitions.length === 0) && valid;
+  valid = setError('nameField', !document.getElementById('studentName').value.trim()) && valid;
+  valid = setError('mobileField', !validPhone(document.getElementById('mobile').value)) && valid;
+  valid = setError('whatsappField', !validPhone(document.getElementById('whatsapp').value)) && valid;
+  ['registrationNumber','standard','medium'].forEach(id => {
+    const el = document.getElementById(id);
+    el.closest('.field').classList.toggle('invalid', !el.value.trim());
+    if (!el.value.trim()) valid = false;
+  });
+  if (!valid) {
+    const firstError = form.querySelector('.invalid');
+    if (firstError) firstError.scrollIntoView({behavior:'smooth',block:'center'});
+    return;
+  }
+
+  const value = id => document.getElementById(id).value.trim();
+  document.getElementById('cardReg').textContent = value('registrationNumber');
+  document.getElementById('cardName').textContent = value('studentName');
+  document.getElementById('cardStandard').textContent = value('standard');
+  document.getElementById('cardMedium').textContent = value('medium');
+  document.getElementById('cardMobile').textContent = value('mobile');
+  document.getElementById('cardWhatsapp').textContent = value('whatsapp');
+  document.getElementById('cardCompetition').textContent = competitions.join(' • ');
+  result.classList.add('show');
+  result.scrollIntoView({behavior:'smooth',block:'start'});
+});
+
+form.addEventListener('reset', () => {
+  submitAttempted = false;
+  setTimeout(() => {
+    form.querySelectorAll('.invalid').forEach(el => el.classList.remove('invalid'));
+    result.classList.remove('show');
+  }, 0);
+});
+
+document.getElementById('downloadBtn').addEventListener('click', async () => {
+  const button = document.getElementById('downloadBtn');
+  if (typeof html2canvas === 'undefined') {
+    alert('PNG download library could not load. Please check your internet connection and try again.');
+    return;
+  }
+  button.disabled = true;
+  button.textContent = 'Preparing PNG…';
+  try {
+    if (document.fonts && document.fonts.ready) await document.fonts.ready;
+    const card = document.getElementById('registrationCard');
+    const canvas = await html2canvas(card, {scale:2, backgroundColor:'#ffffff', useCORS:true, logging:false});
+    const link = document.createElement('a');
+    const reg = document.getElementById('registrationNumber').value.trim().replace(/[^a-z0-9_-]/gi,'_');
+    const name = document.getElementById('studentName').value.trim().replace(/[^a-z0-9_-]/gi,'_');
+    link.download = `Registration_${reg}_${name}.png`;
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  } catch (error) {
+    alert('Could not create the PNG. Please try again.');
+    console.error(error);
+  } finally {
+    button.disabled = false;
+    button.textContent = 'Download PNG';
+  }
+});
+</script>
+</body>
+</html>
